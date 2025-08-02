@@ -1,0 +1,39 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE/editor settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore node modules in frontend
+ecommerce-frontend/node_modules/
+ecommerce-frontend/build/
+ecommerce-frontend/.env
+
+# Ignore logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Spring Boot target directory and config
+ecommerce-backend/target/
+ecommerce-backend/.env
+ecommerce-backend/.classpath
+ecommerce-backend/.project
+ecommerce-backend/.settings/
+
+# Ignore OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore media or video clips if needed
+screenshots/*.mp4
+screenshots/*.mov
+screenshots/*.avi
+
+# Optional: Ignore .env or credentials
+.env
